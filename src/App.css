@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,13,34,1) 35%, rgba(0,212,255,1) 110%);
+}
+.App {
+  text-align: center;
+  color: white;
+}
+
+.Trades-block {
+  min-height: 5vh;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  border: 2px solid rgb(149 159 161);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 50%;
+  margin: 20px auto;
+  box-shadow: 6px 3px 18px black;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.Modal-block {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(149 159 161);
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 50%;
+  margin: 20px auto;
+  box-shadow: 6px 3px 18px black;
+}
+
+.Modal-block div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin-bottom: 15px;
+}
+label {
+  font-size: 16px;
+}
+
+input {
+  padding: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+}
+
+button {
+  align-self: flex-end;
+  padding: 10px;
+  background-color: transparent;
+  outline: none;
+  border: 1px solid #0397bb;
+  border-radius: 4px;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+  background-color: #0397bb;
+  min-width: 70px;
+  font-size: 16px;
+}
+button:hover {
+  color: #0397bb;
+  background-color: white;
+  border: 1px solid transparent;
+}
